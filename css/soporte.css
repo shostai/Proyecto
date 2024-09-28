@@ -56,7 +56,7 @@ header p {
 }
 
 header .num {
-  font-weight: 900;
+    font-weight: 900;
 }
 .img1 {
     height: 400px;
@@ -67,3 +67,12 @@ header .num {
 a {
     color: white;
 }
+
+.contenedor{
+    display: flex; 
+    flex-wrap: wrap ;
+    justify-content: center; 
+    position: absolute;
+    padding-top: 40%;
+}
+
