@@ -42,7 +42,7 @@ ul li {
 header {
     position: absolute;
     padding: 0 40px;
-    padding-top: 100px;
+    padding-top: 20px;
     margin-top: 20px; 
     text-align: justify;
 }
@@ -63,4 +63,14 @@ header p {
 
 a {
     color: white;
+}
+
+.tabla {
+    margin-top: 30px;
+    
+}
+
+th,td{
+    text-align: center;
+    border: 1px solid black;
 }
