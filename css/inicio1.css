@@ -42,7 +42,7 @@ ul li {
 header {
     position: absolute;
     padding: 0 40px;
-    padding-top: 50px;
+    padding-top: 100px;
     margin-top: 20px; 
     text-align: justify;
 }
@@ -55,9 +55,6 @@ header p {
     font-size: 18px;
 }
 
-header .num {
-    font-weight: 900;
-}
 .img1 {
     height: 400px;
     position: absolute;
@@ -68,23 +65,29 @@ a {
     color: white;
 }
 
-.contenedor{
-    display: flex; 
-    flex-wrap: wrap ;
-    justify-content: center; 
-    position: absolute;
-    padding-top: 40%;
+.opinion-section {
+    margin-top: 32%;
+    text-align: center;
+    margin-right: 60%;
 }
 
-.item {
-    margin: 20px 0;
-    display: flex;
-    justify-content: center;
+.opinion-section input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
 }
 
-iframe {
-    border: 0;
-    width: 100%;
-    max-width: 560px;
-    height: 315px;
+.opinion-section button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.opinion-section button:hover {
+    background-color: #45a049;
 }
