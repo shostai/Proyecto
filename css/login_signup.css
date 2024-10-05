@@ -89,3 +89,14 @@ section button{
     margin-top: 1.5em;
     font-size: 1em;
 }
+
+.pie{
+    text-align: center;
+    background-color: #e0e0e0;
+    padding: 15px;
+    margin-top: 40%;
+}
+
+a {
+    color: white;
+}

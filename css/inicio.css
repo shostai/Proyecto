@@ -66,29 +66,9 @@ a {
     color: white;
 }
 
-.opinion-section {
-    margin-top: 32%;
+.pie{
     text-align: center;
-    margin-right: 60%;
-}
-
-.opinion-section input[type="text"] {
-    width: 60%;
-    padding: 10px;
-    margin-top: 10px;
-    font-size: 16px;
-}
-
-.opinion-section button {
-    padding: 10px 20px;
-    margin-top: 10px;
-    font-size: 16px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-.opinion-section button:hover {
-    background-color: #45a049;
+    background-color: #e0e0e0;
+    padding: 15px;
+    margin-top: 40%;
 }
