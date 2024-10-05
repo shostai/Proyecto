@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/busqueda.css">
-    <title>Busqueda por IA</title>
+    <link rel="stylesheet" href="/css/styles1.css">
+    <title>Biblioteca inteligente</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
@@ -12,25 +12,37 @@
 <body>
     <div class="container">
         <nav>
-            <img class="logo_img" src="/img/biblioteca.png">
-            <p class="logo">Biblioteca inteligente</p>
+            <img class="logo_img" src="/img/biblioteca.png" alt="Logo Biblioteca">
+            <p class="logo">Biblioteca Inteligente</p>
             <ul>
-                <li><a href="/html/inicio.html">Inicio</a></li>
-                <li><a href="/html/opiniones.html">Opiniones</a></li>
-                <li><a href="/html/busqueda_ia.html">Busqueda de tareas(IA)</a></li>
-                <li><a href="/html/soporte.html">Soporte</a></li>
+                <li><a href="inicio1.html">Inicio</a></li>
+                <li><a href="registro_Admins.html">Registro administradores</a></li>
+                <li><a href="modificar.html">Modificar de disponibilidad</a></li>
+                <li><a href="eliminar_user.html">Eliminar usuarios</a></li>
             </ul>
         </nav>
-        
+
         <header>
-            <h1>Busqueda de <br> tareas(IA)</h1>
-            <h2>Queridos estudiantes</h2>
-            <p>Nuestra biblioteca permite a los estudiantes de la IUB acceder a la información<br>
-                de la biblioteca de forma rápida y eficiente, aprovechando la inteligencia artificial<br>
-                para mejorar su experiencia.
-            </p>
-        </header>       
+            <h1>Registro de Administradores</h1>
+            <section>
+                <form id="signupAdminForm">
+                    <label for="name">Nombre</label>
+                    <input type="text" placeholder="Nombre completo" id="name" required autofocus>
+                    
+                    <label for="email">Mail</label>
+                    <input type="email" placeholder="Correo electrónico" id="email" required>
+                    
+                    <label for="password">Contraseña</label>
+                    <input type="password" placeholder="Contraseña" id="password" required>
+                    
+                    <input type="submit" value="Registrar Administrador">
+                </form>
+            </section>
+        </header>
+
+        <img class="img1" src="/img/freepik_br_603e5106-e927-4b47-972b-a585ccb1cfd4.png" alt="Imagen Biblioteca">
     </div>
 
+    <script src="/js/signup_admin.js"></script>
 </body>
 </html>
